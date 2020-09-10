@@ -1,5 +1,5 @@
-export const primaryFont = '"Roboto Mono", monospace';
-export const headingFont = '"Varela Round", sans-serif';
+export const primaryFont = '"Montserrat", sans-serif';
+export const headingFont = '"Playfair Display", serif';
 
 export const typeScale = {
   header1: "1.8rem",

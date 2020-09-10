@@ -13,6 +13,10 @@ body {
   margin: 0;
   padding: 65px 0 0;
   font-family: ${primaryFont};
+  background-color: ${props => props.theme === 'darkTheme' ? 'black' : 'white'};
+  color: ${props => props.theme.textColorOnPrimary};
+  background-color: ${props => props.theme.primaryColor};
+  transition: 300ms ease-in-out;
 }
 main {
   width: 90%;
