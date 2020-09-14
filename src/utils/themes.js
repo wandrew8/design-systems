@@ -3,13 +3,14 @@ import { primaryFont } from "./typography";
 
 export const defaultTheme = {
   primaryColor: blue[300],
+  primaryColorInverted: neutral[100],
   primaryHoverColor: blue[200],
   primaryActiveColor: blue[100],
   formElementBackground: neutral[100],
   textOnFormElementBackground: neutral[600],
   textColorOnPrimary: neutral[100],
   textColor: neutral[600],
-  textColorInverted: neutral[100],
+  textColorInverted: blue[300],
   primaryFont: primaryFont,
   disabled: neutral[400],
   textOnDisabled: neutral[300],
@@ -30,6 +31,7 @@ export const defaultTheme = {
 
 export const darkTheme = {
   primaryColor: neutral[100],
+  primaryColorInverted: blue[300],
   primaryHoverColor: neutral[200],
   primaryActiveColor: neutral[300],
   formElementBackground: blue[100],

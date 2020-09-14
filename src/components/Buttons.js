@@ -47,9 +47,11 @@ export const Button = styled.button`
   padding: 8px 12px;
   border-radius: 2px;
   min-width: 100px;
+  max-width: 150px;
   cursor: pointer;
   font-family: ${primaryFont};
   font-size: ${typeScale.paragraph};
+  margin: 0 auto;
   transition: background-color 0.2s linear, color 0.2s linear;
   &:hover {
     background-color: ${props => props.theme.primaryHoverColor};
